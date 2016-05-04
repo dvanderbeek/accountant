@@ -64,8 +64,6 @@ GEM
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.2.19)
     builder (3.2.2)
-    byebug (5.0.0)
-      columnize (= 0.9.0)
     capybara (2.7.1)
       addressable
       mime-types (>= 1.16)
@@ -99,7 +97,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.10.0)
-    columnize (0.9.0)
     connection_pool (2.2.0)
     database_cleaner (1.5.3)
     debug_inspector (0.0.2)
@@ -207,9 +204,6 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    pry-byebug (3.2.0)
-      byebug (~> 5.0)
-      pry (~> 0.10)
     pry-rails (0.3.4)
       pry (>= 0.9.10)
     puma (2.11.3)
@@ -363,7 +357,6 @@ DEPENDENCIES
   newrelic_rpm (>= 3.7.3)
   pg
   poltergeist
-  pry-byebug
   pry-rails
   puma
   rails (= 4.2.6)
@@ -380,3 +373,9 @@ DEPENDENCIES
   timecop
   title
   uglifier
+
+RUBY VERSION
+   ruby 2.2.2p95
+
+BUNDLED WITH
+   1.12.1
