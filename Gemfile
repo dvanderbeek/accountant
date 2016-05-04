@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 ruby '2.2.2'
 
+gem 'rails', '4.2.6'
+
 gem 'coffee-rails'
 gem 'sidekiq'
 gem 'sinatra', require: false
@@ -10,7 +12,6 @@ gem 'email_validator'
 gem 'flutie'
 gem 'jquery-rails'
 gem 'pg'
-gem 'rails', '4.2.0'
 gem 'recipient_interceptor'
 gem 'sass-rails', '~> 4.0.3'
 gem 'simple_form', '~> 3.2.0'
